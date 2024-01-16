@@ -1,4 +1,4 @@
-# Copyright (c) 2014 Adafruit Industries
+##Copyright (c) 2014 Adafruit Industries
 # Author: Tony DiCola
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -173,7 +173,7 @@ class Adafruit_CharLCD(object):
     def home(self):
         """Move the cursor back to its home (first line and first column)."""
         self.write8(LCD_RETURNHOME)  # set cursor position to zero
-        self._delay_microseconds(3000)  # this command takes a long time!
+        self._delay_microseconds(3000)  # this command takes a long time 
 
     def clear(self):
         """Clear the LCD."""
@@ -474,4 +474,4 @@ class Adafruit_CharLCDBackpack(Adafruit_CharLCD):
         # Initialize LCD (with no PWM support).
         super(Adafruit_CharLCDBackpack, self).__init__(LCD_BACKPACK_RS, LCD_BACKPACK_EN,
             LCD_BACKPACK_D4, LCD_BACKPACK_D5, LCD_BACKPACK_D6, LCD_BACKPACK_D7,
-            cols, lines, LCD_BACKPACK_LITE, enable_pwm=False, gpio=self._mcp)
+            cols, lines, LCD_BACKPACK_LITE, enable_pwm=False, gpio=self._mcp) 
