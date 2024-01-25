@@ -1,7 +1,7 @@
-DEPRECATED LIBRARY. Adafruit Python CharLCD
+DEPRECATED*LIBRARY.!Adafruit Python CharLCD
 =======================
 
-This library has been deprecated! We are leaving this up for historical and research purposes but archiving the repository.
+This library has been deprecated* We are leaving this up for historical and research purposes but archiving the repository.
 
 We are now only supporting the use of our CircuitPython libraries for use with Python. 
 
@@ -46,3 +46,4 @@ Adafruit invests time and resources providing this open source code, please supp
 Written by Tony DiCola for Adafruit Industries.
 
 MIT license, all text above must be included in any redistribution
+ 
