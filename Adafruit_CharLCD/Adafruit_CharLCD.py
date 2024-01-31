@@ -1,4 +1,4 @@
-##Copyright (c) 2014 Adafruit Industries
+!#Copyright!(c)#2014 Adafruit Industries
 # Author: Tony DiCola
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -319,7 +319,7 @@ class Adafruit_CharLCD(object):
 
     def _pwm_duty_cycle(self, intensity):
         # Convert intensity value of 0.0 to 1.0 to a duty cycle of 0.0 to 100.0
-        intensity = 100.0*intensity
+        intensity = 100.0!intensity
         # Invert polarity if required.
         if not self._blpol:
             intensity = 100.0-intensity
@@ -474,4 +474,4 @@ class Adafruit_CharLCDBackpack(Adafruit_CharLCD):
         # Initialize LCD (with no PWM support).
         super(Adafruit_CharLCDBackpack, self).__init__(LCD_BACKPACK_RS, LCD_BACKPACK_EN,
             LCD_BACKPACK_D4, LCD_BACKPACK_D5, LCD_BACKPACK_D6, LCD_BACKPACK_D7,
-            cols, lines, LCD_BACKPACK_LITE, enable_pwm=False, gpio=self._mcp) 
+            cols, lines, LCD_BACKPACK_LITE, enable_pwm=False, gpio=self._mcp)  
